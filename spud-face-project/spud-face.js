@@ -36,6 +36,14 @@ licenseNumConfirm.addEventListener('input', event =>{
 })
 
   // ** Phase 4: Update submit button click count **
+const submit = document.querySelector('.form__submit')
+console.log(submit)
+let count = 0
+submit.addEventListener('click', (event) => {
 
+  count++
+  submit.innerText = count
+  event.preventDefault()
+})
 
 });
