@@ -2,6 +2,7 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
+
 }
 
 .form--license {
@@ -13,13 +14,16 @@ body {
 }
 
 .form__input {
+
   padding: 10px;
   border-radius: 5px;
   border-width: 1px;
   border-style: solid;
   font-size: 14px;
 }
-
+.confirmed{
+  background-color: lightcoral;
+}
 .form__submit {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
@@ -42,5 +46,3 @@ body {
   border-radius: 5px;
   padding: 10px;
 }
-
-
